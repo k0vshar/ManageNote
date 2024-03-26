@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using ManageNote.Domain.Entity;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.SqlServer;
 
 namespace ManageNote.DAL
@@ -9,5 +10,7 @@ namespace ManageNote.DAL
         {
             Database.EnsureCreated();
         }
+
+        public DbSet<Note> Notes { get; set; }
     }
 }

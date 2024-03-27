@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ManageNote.DAL\ManageNote.DAL.csproj" />
     <ProjectReference Include="..\ManageNote.Domain\ManageNote.Domain.csproj" />
   </ItemGroup>
 

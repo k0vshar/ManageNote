@@ -1,5 +1,6 @@
 ﻿using ManageNote.Domain.Entity;
 using ManageNote.Domain.Response;
+using ManageNote.Domain.ViewModels.Note;
 
 namespace ManageNote.Service.Interfaces
 {
@@ -7,10 +8,12 @@ namespace ManageNote.Service.Interfaces
     {
         IBaseResponse<List<Note>> GetNotes();
 
-        Task<IBaseResponse<Note>> Create(string title, string desc);
+        Task<IBaseResponse<Note>> CreateNote(long id, NoteViewModel model);
 
-        Task<IBaseResponse<Note>> Edit(string title, string desc);
+        Task<IBaseResponse<Note>> EditNote(long id, NoteViewModel model);
 
-        Task<IBaseResponse<Note>> ViewNote(int id);
+        Task<IBaseResponse<bool>> DeleteNote(long id);
+
+        Task<IBaseResponse<NoteViewModel>> ViewNote(long id);
     }
 }

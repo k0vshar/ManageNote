@@ -8,6 +8,10 @@ namespace ManageNote.Domain.Enum
 {
     public enum StatusCode
     {
-        NoteNotFound = 10
+        NoteNotFound = 10,
+
+        OK = 200,
+
+        InternalServerError = 500
     }
 }

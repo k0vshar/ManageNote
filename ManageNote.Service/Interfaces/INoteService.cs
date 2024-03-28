@@ -8,7 +8,7 @@ namespace ManageNote.Service.Interfaces
     {
         IBaseResponse<List<Note>> GetNotes();
 
-        Task<IBaseResponse<Note>> CreateNote(long id, NoteViewModel model);
+        Task<IBaseResponse<Note>> CreateNote(NoteViewModel model);
 
         Task<IBaseResponse<Note>> EditNote(long id, NoteViewModel model);
 

@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ManageNote.DAL\ManageNote.DAL.csproj" />
+    <ProjectReference Include="..\ManageNote.Service\ManageNote.Service.csproj" />
   </ItemGroup>
 
 </Project>

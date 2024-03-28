@@ -17,7 +17,7 @@ namespace ManageNote.Service.Implementation
             _noteRepository = noteRepository;
         }
 
-        public async Task<IBaseResponse<Note>> CreateNote(long id, NoteViewModel model)
+        public async Task<IBaseResponse<Note>> CreateNote(NoteViewModel model)
         {
             try
             {
@@ -157,7 +157,7 @@ namespace ManageNote.Service.Implementation
                 {
                     return new BaseResponse<bool>()
                     {
-                        Description = "Note not found",
+                        Description = "Заметка не найдена",
                         StatusCode = StatusCode.NoteNotFound,
                         Data = false
                     };

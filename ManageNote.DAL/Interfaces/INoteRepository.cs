@@ -5,5 +5,7 @@ namespace ManageNote.DAL.Interfaces
     internal interface INoteRepository : IBaseRepository<Note>
     {
         Task<Note> GetByTitle(string title);
+
+        Task<Note> GetByDesc(string desc);
     }
 }

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManageNote", "ManageNote\ManageNote.csproj", "{6134295F-B293-43CC-B45D-9C59E3C460EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManageNote", "ManageNote\ManageNote.csproj", "{6134295F-B293-43CC-B45D-9C59E3C460EA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ManageNote.DAL", "ManageNote.DAL", "{2C3BA763-726E-4C88-A13D-30C3476F701C}"
 EndProject
@@ -11,11 +11,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ManageNote.Domain", "Manage
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ManageNote.Service", "ManageNote.Service", "{69C505AE-67F5-4A43-B253-6E5426FD378C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManageNote.DAL", "ManageNote.DAL\ManageNote.DAL.csproj", "{77EF4E31-8DBD-499C-AC9B-93A8330DFF9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManageNote.DAL", "ManageNote.DAL\ManageNote.DAL.csproj", "{77EF4E31-8DBD-499C-AC9B-93A8330DFF9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManageNote.Domain", "ManageNote.Domain\ManageNote.Domain.csproj", "{13375791-706B-4CC5-B118-DEF7B24AAD08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManageNote.Domain", "ManageNote.Domain\ManageNote.Domain.csproj", "{13375791-706B-4CC5-B118-DEF7B24AAD08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManageNote.Service", "ManageNote.Service\ManageNote.Service.csproj", "{8B4EA366-E1E1-44D7-B932-B8365AD73995}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManageNote.Service", "ManageNote.Service\ManageNote.Service.csproj", "{8B4EA366-E1E1-44D7-B932-B8365AD73995}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

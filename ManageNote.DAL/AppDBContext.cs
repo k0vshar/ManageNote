@@ -1,6 +1,5 @@
 ﻿using ManageNote.Domain.Entity;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.SqlServer;
 
 namespace ManageNote.DAL
 {
